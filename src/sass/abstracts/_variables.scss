@@ -6,26 +6,33 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: sans-serif;
-  --ff-heading: serif;
+  --ff-body: "Comfortaa", sans-serif;
+  --ff-heading: "Lilita One", sans-serif;
 
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-100: hsla(0, 0%, 100%, 1);
-  --clr-primary-300: hsla(0, 0%, 50%, 1);
-  --clr-primary-350: hsla(0, 0%, 50%, 0.5);
-  --clr-primary-400: hsla(0, 0%, 40%, 1);
-  --clr-primary-500: hsla(0, 0%, 32%, 1);
-  --clr-primary-900: hsla(0, 0%, 10%, 1);
+  --clr-primary-100: hsla(240, 100%, 100%, 1);
+  --clr-primary-200: hsla(240, 100%, 75%, 1);
+  --clr-primary-300: hsla(240, 100%, 50%, 1);
+  --clr-primary-350: hsla(240, 100%, 50%, 0.5);
+  --clr-primary-400: hsla(240, 100%, 40%, 1);
+  --clr-primary-500: hsla(240, 100%, 32%, 1);
+  --clr-primary-900: hsla(240, 100%, 10%, 1);
 
-  --clr-neutral-100: hsla(0, 0%, 100%, 1);
-  --clr-neutral-300: hsla(0, 0%, 50%, 1);
-  --clr-neutral-350: hsla(0, 0%, 50%, 0.5);
-  --clr-neutral-400: hsla(0, 0%, 40%, 1);
-  --clr-neutral-500: hsla(0, 0%, 60%, 1);
-  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --clr-neutral-100: hsla(210, 22%, 100%, 1);
+  --clr-neutral-100: hsla(210, 22%, 75%, 1);
+  --clr-neutral-300: hsla(210, 22%, 56%, 1);
+  --clr-neutral-350: hsla(210, 22%, 56%, 0.5);
+  --clr-neutral-400: hsla(210, 22%, 40%, 1);
+  --clr-neutral-500: hsla(210, 22%, 60%, 1);
+  --clr-neutral-900: hsla(210, 22%, 10%, 1);
+
+  --clr-gray-100: hsl(0, 0%, 31%);
+  --clr-gray-200: hsl(0, 0%, 85%);
+
+  --clr-hover-turq: hsl(174, 72%, 57%);
 }
 
 @media (min-width: 35em) {
