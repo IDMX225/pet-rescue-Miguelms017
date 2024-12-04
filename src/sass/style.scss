@@ -1,6 +1,7 @@
 @use "./abstracts/variables";
 @use "./base/reset";
 @use "./base/typography";
+@use "./components/header";
 
 
 
@@ -84,11 +85,6 @@ section,
 
 .page-header {
   padding: 2em 0;
-}
-
-.page-header__content {
-  display: flex;
-  justify-content: space-between;
 }
 
 .nav-list {
