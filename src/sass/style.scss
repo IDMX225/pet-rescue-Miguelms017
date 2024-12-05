@@ -36,14 +36,6 @@ section,
   Utility Classes
   /////////////////////// */
 
-/* select all direct children of .flow
-   and add margin to the top for proper
-   spacing */
-
-.flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1em);
-}
-
 .container {
   margin-inline: auto;
   padding-inline: 1.5em;
@@ -165,8 +157,10 @@ header,
 }
 
 .articles__list {
-  --flow-spacer: 3rem;
   margin: 6rem 0;
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* //////////////////////
@@ -191,7 +185,6 @@ header,
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: 35ch;
   border: solid 1px var(--clr-gray-100);
   border-radius: 20px;
   &__body{
@@ -294,4 +287,19 @@ header,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+@media screen and (max-width: 1150px) {
+  .articles__list{
+    grid-template-columns: 1fr 1fr;
+  }
+  .snippet{
+    max-width: 65ch;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .articles__list{
+    grid-template-columns: 1fr;
+  }
 }
