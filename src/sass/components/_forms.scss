@@ -1,13 +1,49 @@
-.form{
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
     margin: min(10vh, 10em) 0;
+}
+.anim{
+    svg{
+        width: 100%;
+        height: auto;
+        #arm {
+            animation: 1s ease-in-out alternate infinite moveArm;
+        }
+        @keyframes moveArm{
+            from{
+                transform: skewX(0deg);
+            }
+            to{
+                transform: skew(5deg);
+            }
+        }
+        
+        #dogTail {
+            animation: 0.5s ease-in-out alternate infinite tailDog;
+        }
+        @keyframes tailDog{
+            from{
+            transform: rotateX(10deg);
+            }
+            to{
+                transform: rotateX(-10deg);
+            }
+        }
+    }
+}
+.form{
     background-color: var(--clr-primary-200);
     color: var(--clr-primary-100);
     border-radius: 20px;
+    align-content: center;
     &__main{
         display: flex;
         flex-direction: column;
         gap: 1em;
         padding: 2em;
+    
         &__row{
             display:flex;
             flex-direction: row;
@@ -15,7 +51,7 @@
             label{
                 text-wrap-mode: nowrap;
             }
-            input{
+            input, select{
                 width: 100%;
             }
         }
@@ -24,5 +60,11 @@
             justify-content: center;
             gap: 0.5em;
         }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper{
+        flex-direction: column;
     }
 }
