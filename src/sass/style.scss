@@ -188,30 +188,34 @@ header,
   /////////////////////// */
 
 .snippet {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 1em;
-  grid-template-areas:
-    "image"
-    "title"
-    "meta"
-    "body"
-    "button";
+  width: 35ch;
+  border: solid 1px var(--clr-gray-100);
+  border-radius: 20px;
+  &__body{
+    padding: 0 1.5em 0 1.5em;
+  }
+  .btn {
+    margin: 0 0 1.5em 1.5em;
+  }
 }
 
 .snippet__image {
-  grid-area: image;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 20px 20px 0 0;
 }
 
 .snippet__title {
-  grid-area: title;
+  padding: 1.5em 1.5em 0.75em 1em;
 }
 
 .snippet__meta {
-  grid-area: meta;
   color: var(--clr-neutral-400);
+  padding: 0 1.5em 0 1.5em;
 }
 
 .snippet__meta span {
