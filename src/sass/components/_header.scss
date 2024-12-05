@@ -18,4 +18,37 @@
         color: var(--clr-primary-300);
         border: solid 1px var(--clr-primary-300);
     }
+    .checkbox, .ico, .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .grid-group{
+        flex-direction: column;
+        .flex-group{
+            display: none;
+        }
+        .checkbox, .ico {
+            display: block;
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            right: 22px;
+        }
+        .checkbox{
+            opacity: 0;
+            right: 20px;
+        }
+        .ico{
+            pointer-events: none;
+        }
+        .checkbox:checked ~ .menu{
+            display:flex;
+            flex-direction: column;
+            padding-top: 1.5em;
+            margin-left: -15em;
+            gap: 1em;
+        }
+    }
 }
