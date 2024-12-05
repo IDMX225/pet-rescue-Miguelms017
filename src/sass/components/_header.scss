@@ -5,9 +5,10 @@
     justify-content: space-between;
     align-items: center;
     .contact{
-        background-color: var(--clr-primary-300);
-        color: var(--clr-primary-100);
-        border: solid 1px var(--clr-primary-300);
+        background-color: var(--clr-primary-400);
+        color: var(--clr-neutral-100);
+        font-weight: var(--fw-700);
+        border: solid 1px var(--clr-primary-400);
         border-radius: 5px;
         padding:0.5em;
         margin-left: -0.5em;
@@ -15,8 +16,8 @@
     }
     .contact:hover{
         background-color: var(--clr-hover-turq);
-        color: var(--clr-primary-300);
-        border: solid 1px var(--clr-primary-300);
+        color: var(--clr-primary-400);
+        border: solid 1px var(--clr-primary-400);
     }
     .checkbox, .ico, .menu{
         display: none;

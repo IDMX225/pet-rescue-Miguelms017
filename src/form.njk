@@ -1,0 +1,41 @@
+---
+title: "Write Us"
+layout: 'base.njk'
+---
+
+<div class="section container">
+    <h1 class="section-title">Write to Us</h1>
+    <p>lorem Ipsum</p>
+    <div class="form">
+        <form name="contact" method="post" class="form__main">
+            <div class="form__main__row">
+                <label for="FirstName">First Name*</label>
+                <input type="text" name="FirstName" class="FirstName" required>
+            </div>
+            <div class="form__main__row">
+                <label for="LastName">Last Name*</label>
+                <input type="text" name="LastName" class="LastName" required>
+            </div>
+            <div class="form__main__row">
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" class="email" required>
+            </div>
+            <div class="form__main__row">
+                <label for="Telephone">Phone Number</label>
+                <input type="tel" name="Telephone" class="Telephone">
+            </div>
+            <div class="form__main__row">
+                <label for="reason">I want to</label>
+                <select name="reason" class="reason">
+                    <option value="">Select One</option>
+                    <option value="Donation">Become a Donor</option>
+                    <option value="Volunteer">Become a Volunteer</option>
+                </select>
+            </div>
+            <div class="form__main__buttons">
+                <input type="submit" value="Submit" class="btn btn--primary">
+                <input type="reset" value="Clear" class="btn btn--neutral">
+            </div>
+        </form>
+    </div>
+</div>

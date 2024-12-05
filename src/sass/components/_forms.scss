@@ -1,0 +1,28 @@
+.form{
+    margin: min(10vh, 10em) 0;
+    background-color: var(--clr-primary-200);
+    color: var(--clr-primary-100);
+    border-radius: 20px;
+    &__main{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+        &__row{
+            display:flex;
+            flex-direction: row;
+            gap: 0.5em;
+            label{
+                text-wrap-mode: nowrap;
+            }
+            input{
+                width: 100%;
+            }
+        }
+        &__buttons{
+            display:flex;
+            justify-content: center;
+            gap: 0.5em;
+        }
+    }
+}
