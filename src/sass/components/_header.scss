@@ -26,6 +26,7 @@
 @media screen and (max-width: 630px) {
     .grid-group{
         flex-direction: column;
+        align-items: flex-start;
         .flex-group{
             display: none;
         }
@@ -47,7 +48,6 @@
             display:flex;
             flex-direction: column;
             padding-top: 1.5em;
-            margin-left: -15em;
             gap: 1em;
         }
     }

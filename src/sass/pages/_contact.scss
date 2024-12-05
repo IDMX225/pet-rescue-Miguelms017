@@ -1,0 +1,27 @@
+.contactUs{
+    margin: 6rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    &__method{
+        background-color: var(--clr-primary-200);
+        border: 1px solid black;
+        padding: 2em;
+        max-width: 65ch;
+        border-radius: 20px;
+        svg{
+            display: block;
+            justify-self: center;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contactUs{
+        grid-template-columns: 1fr; 
+        &__method{
+            max-width: 100%;
+            min-width: 35ch;
+        }
+    }
+}
