@@ -237,6 +237,10 @@ header,
   color: var(--clr-primary-500);
 }
 
+.mission{
+  color: var(--clr-primary-100);
+}
+
 @media (min-width: 45em) {
   .snippet {
     grid-template-areas:
