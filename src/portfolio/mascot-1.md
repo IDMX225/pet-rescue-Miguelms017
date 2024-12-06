@@ -3,8 +3,8 @@ title: Fletcher
 author: Parallel Souls
 date: 2024-12-06
 tags: [post , featured]
-image: https://placehold.co/300x200
-imageAlt: Placeholder
+image: https://res.cloudinary.com/dvoigkose/image/upload/v1733502988/portrait-of-shih-tzu-bichon-mix_dfdray.jpg
+imageAlt: Fletcher
 description: Fletcher is a 1-year-old Shih Tzu/Bichon Frise mix who loves to play and cuddle. He gets along well with other dogs and loves children. He has a lot of energy and would do great in an active household.
 ---
 <br>

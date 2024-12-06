@@ -3,8 +3,8 @@ title: Daisy
 author: Parallel Souls
 date: 2024-12-06
 tags: [post]
-image: https://placehold.co/300x200
-imageAlt: Placeholder
+image: https://res.cloudinary.com/dvoigkose/image/upload/v1733502989/_Bill__-_Cocker_spaniel_anglais_2_m2k4wi.jpg
+imageAlt: Daisy
 description: Daisy is a 6-year-old Cocker Spaniel who is very gentle and loves being pampered. She enjoys going on leisurely walks and cuddling up on the couch. Daisy would do well in a calm household.
 ---
 <br>

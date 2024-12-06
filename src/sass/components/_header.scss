@@ -26,6 +26,12 @@
 
 @media screen and (max-width: 630px) {
     .grid-group{
+        .logo{
+            svg{
+                width: 64px;
+                Height: 64px;
+            }
+        }
         flex-direction: column;
         align-items: flex-start;
         .flex-group{
@@ -48,8 +54,8 @@
         .checkbox:checked ~ .menu{
             display:flex;
             flex-direction: column;
-            padding-top: 1.5em;
-            gap: 1em;
+            padding-top: 2.5em;
+            gap: 1.5em;
         }
     }
 }
