@@ -3,7 +3,7 @@ title: Bella
 author: Parallel Souls
 date: 2024-12-06
 tags: [post]
-image: https://res.cloudinary.com/dvoigkose/image/upload/v1733507340/beagle-on-meadow-2021-08-26-15-58-22-utc_w01bkg.png
+image: https://res.cloudinary.com/dvoigkose/image/upload/v1733513946/beagle-on-meadow-2021-08-26-15-58-22-utc_rl2omf.webp
 imageAlt: Bella
 description: Bella is a 5-year-old Beagle who loves sniffing around and exploring. She is very friendly and loves being around people. Bella would be perfect for a family that enjoys outdoor activities.
 ---
