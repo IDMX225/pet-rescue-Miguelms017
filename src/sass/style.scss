@@ -145,6 +145,7 @@ header,
 
 .hero__image {
   width: 100%;
+  height: auto;
   max-height: max(15rem, 40vh);
   object-fit: cover;
 }
@@ -172,6 +173,13 @@ header,
 
 .main-article {
   margin-bottom: 3rem;
+}
+
+.main-article__figure{
+    img{
+    width: 100%;
+    height: auto;
+  }
 }
 
 .main-article__figure figcaption {

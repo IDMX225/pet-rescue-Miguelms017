@@ -7,7 +7,7 @@ layout: 'base.njk'
 
 
     <figure class="main-article__figure">
-      <img src="{{ image }}" alt="{{ imgAlt }}">
+      <img src="{{ image }}" alt="{{ imgAlt }}" srcser="{{ post.data.image | replace('upload/', 'upload/w_600/') }} 600w, {{ post.data.image | replace('upload/', 'upload/w_300/')}} 300w" sizes="(max-width: 600px) 100vw 300px" width="300" height="200">
       <figcaption>
         {{ imgAlt }}
       </figcaption>
