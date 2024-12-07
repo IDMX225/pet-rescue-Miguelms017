@@ -249,6 +249,10 @@ header,
   color: var(--clr-primary-100);
 }
 
+.emailLink{
+  color: var(--clr-neutral-300);
+}
+
 @media (min-width: 45em) {
   .snippet {
     grid-template-areas:
